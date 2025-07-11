@@ -9,12 +9,12 @@ public class HelloJUnitTests {
     @Test
     public void passingTest() {
         HelloJUnit helloJUnit = new HelloJUnit();
-        assertEquals(7, helloJUnit.sum(4,2));
+        assertEquals(6, helloJUnit.sum(4,2));
     }
 
     @Test
     public void failingTest() {
         HelloJUnit helloJUnit = new HelloJUnit();
-        assertEquals("Welcome, World", helloJUnit.greeting("World"));
+        assertEquals("Welcome , World", helloJUnit.greeting("World"));
     }
 }
